@@ -1,0 +1,116 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://344r.oneapp.dev/
+Subject: Tripathi Digital Library
+Date: Fri, 3 Oct 2025 04:06:04 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--xcty9ohpeY5zlG6plfgb8ZEFW7sCUskP8r4k1aKODq----"
+
+
+------MultipartBoundary--xcty9ohpeY5zlG6plfgb8ZEFW7sCUskP8r4k1aKODq----
+Content-Type: text/html
+Content-ID: <frame-BDFAE0D9AE666CAE1CA61D2EC1D14219@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://344r.oneapp.dev/
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-89fe3b37-7d49-4980-86cb-ea3fa2b17176@mhtml.blink" />
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tripathi Digital Library</title>
+  
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Tripathi Digital Library</h1>
+      <div class="byline">Design by <strong>Rahul Tripathi Ankur</strong></div>
+    </header><section class="search-card" aria-label="search">
+  <form id="searchForm" style="display:flex;gap:12px;flex:1;align-items:center;">
+    <input id="q" type="search" placeholder="Search books by title, author or keyword" aria-label="Search books">
+    <select id="source" title="Source">
+      <option value="openlibrary">Open Library (metadata &amp; loans)</option>
+      <option value="gutendex">Project Gutenberg (public domain)</option>
+    </select>
+    <button type="submit">Search</button>
+  </form>
+
+  <div style="flex-basis:100%"></div>
+  <div class="subjects" id="subjects">
+    <button class="chip">Fiction</button>
+    <button class="chip">Science</button>
+    <button class="chip">Technology</button>
+    <button class="chip">Math</button>
+    <button class="chip">History</button>
+    <button class="chip">Philosophy</button>
+    <button class="chip">Art</button>
+  </div>
+</section>
+
+<main>
+  <div id="message" style="margin-top:16px;color:var(--muted)">Enter a search term and press Search.</div>
+  <div class="results" id="results" aria-live="polite"></div>
+</main>
+
+<div class="footer">© <span id="year">2025</span> Tripathi Digital Library. Use only legally-available/public-domain material. External links may lead to provider sites.</div>
+
+  </div>  <div class="corner-badge">Tripathi Digital Library — design by Rahul Tripathi Ankur</div>  
+</body></html>
+------MultipartBoundary--xcty9ohpeY5zlG6plfgb8ZEFW7sCUskP8r4k1aKODq----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-89fe3b37-7d49-4980-86cb-ea3fa2b17176@mhtml.blink
+
+@charset "utf-8";
+
+:root { --bg: #f7fafc; --card: #ffffff; --muted: #6b7280; --accent: #0f172a; }
+
+* { box-sizing: border-box; }
+
+body { margin: 0px; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background: var(--bg); color: var(--accent); }
+
+.container { max-width: 1100px; margin: 28px auto; padding: 20px; }
+
+header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+
+h1 { font-size: 1.8rem; margin: 0px; }
+
+.byline { font-size: 0.9rem; color: var(--muted); }
+
+.search-card { background: var(--card); padding: 18px; border-radius: 12px; box-shadow: rgba(15, 23, 42, 0.06) 0px 6px 18px; display: flex; gap: 12px; flex-wrap: wrap; }
+
+.search-card input[type="search"] { flex: 1 1 0%; min-width: 220px; padding: 12px; border-radius: 10px; border: 1px solid rgb(230, 231, 235); font-size: 1rem; }
+
+.search-card select { padding: 10px; border-radius: 10px; border: 1px solid rgb(230, 231, 235); }
+
+.search-card button { background: var(--accent); color: rgb(255, 255, 255); padding: 10px 14px; border-radius: 10px; border: 0px; cursor: pointer; }
+
+.subjects { margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
+
+.chip { padding: 8px 10px; border-radius: 999px; border: 1px solid rgb(230, 231, 235); background: rgb(255, 255, 255); font-size: 0.9rem; cursor: pointer; }
+
+.chip.active { background: var(--accent); color: rgb(255, 255, 255); border-color: var(--accent); }
+
+.results { margin-top: 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+
+.book { background: var(--card); padding: 12px; border-radius: 12px; display: flex; gap: 12px; align-items: flex-start; box-shadow: rgba(15, 23, 42, 0.04) 0px 4px 12px; }
+
+.cover { width: 72px; height: 108px; background: rgb(240, 242, 245); border-radius: 6px; flex-shrink: 0; object-fit: cover; }
+
+.meta h3 { margin: 0px; font-size: 1rem; }
+
+.meta p { margin: 6px 0px 0px; font-size: 0.9rem; color: var(--muted); }
+
+.actions { margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap; }
+
+.link-btn { padding: 6px 8px; border-radius: 8px; border: 1px solid rgb(230, 231, 235); background: rgb(255, 255, 255); font-size: 0.85rem; text-decoration: none; color: var(--accent); }
+
+.footer { margin-top: 26px; text-align: center; color: var(--muted); font-size: 0.85rem; }
+
+.corner-badge { position: fixed; right: 16px; bottom: 16px; background: var(--accent); color: rgb(255, 255, 255); padding: 8px 12px; border-radius: 10px; font-size: 0.85rem; box-shadow: rgba(2, 6, 23, 0.3) 0px 8px 20px; }
+
+@media (max-width: 520px) {
+  h1 { font-size: 1.3rem; }
+  .cover { width: 62px; height: 92px; }
+}
+------MultipartBoundary--xcty9ohpeY5zlG6plfgb8ZEFW7sCUskP8r4k1aKODq------
